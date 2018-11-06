@@ -25,11 +25,11 @@
         //           var hehe = patt1.test(ContentTxt);
         var KeyWordArray = Array(2);
         var i;
-        KeyWordArray[0] = "福利";
+        KeyWordArray[0] = "词汇";
 
-        KeyWordArray[1] = "空虚";
+        KeyWordArray[1] = "什么";
 
-        KeyWordArray[2] = "颤抖";
+        KeyWordArray[2] = "随机";
         
         for (i = 0; i <KeyWordArray.length; i++) {
             TxtMatch = ContentTxt.match(KeyWordArray[i]);
